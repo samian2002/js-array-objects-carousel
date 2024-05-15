@@ -34,7 +34,19 @@ body, html {
 .carousel-button.right {
     right: 10px;
 }
-
+/* metodo active
+.slide {
+    display: none; 
+    width: 100%; 
+    flex-shrink: 0; 
+    position: absolute; 
+    align-items: center;
+    justify-content: center;
+} 
+.slide.active {
+    display: flex; 
+}
+*/
 img {
     max-width: 100%;
     max-height: 100%;
